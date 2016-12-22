@@ -1,0 +1,9 @@
+---
+
+- hosts: apache
+  sudo: yes
+
+  roles: 
+   - {role: git.role}
+   - {role: docker.role}
+   - {role: apache.role}

@@ -1,0 +1,2 @@
+[apache]
+52.15.164.245 ansible_ssh_user=ubuntu ansible_connection=ssh ansible_ssh_private_key_file=Ansible-east.pem
